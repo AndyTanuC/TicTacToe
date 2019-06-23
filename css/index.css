@@ -78,7 +78,6 @@ button:hover {
 
 body {
   display: flex;
-  /* background: #eee url("../background.jpeg") no-repeat center center/cover; */
   height: 100%;
   width: 100%;
   overflow: scroll;
