@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div id="bg">
+      <img src="background.jpeg" id="bg" />
+    </div>
+    <div class="container">
+      <div id="start">
+        <div class="header">
+          <h3>Tic Tac Toe</h3>
+          <span >Insert the board size</span>
+        </div>
+        <input id="size" type="number"></input>
+        <button onClick="start();">enter</button>
+      </div>
+      <div id="player">
+        <span>Turn: </span>
+        <span id="turn">Player X</span>
+        <button id="restart" onClick="newGame();">restart</button>
+      </div>
+      <div id="tictactoe"></div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
